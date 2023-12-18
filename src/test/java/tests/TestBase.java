@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 public class TestBase implements AppManager {
     @BeforeSuite
     public void setUp(){
-        init();
+        initAddOptions();
     }
 
     @AfterSuite
